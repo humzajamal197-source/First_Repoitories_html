@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS261297</title>
+</head>
+<body>
+
+    <h1><u>Hamza Jamal</u></h1>
+    <hr>
+    <p><b>Hamza</b>, as an undergraduate student pursuing your degree at <b>DHA Suffa University (DSU)</b> in Karachi, you are taking a major step forward in your academic and professional journey. Immersed in a rigorous academic environment equipped with modern computing facilities and specialized labs, you are actively laying down strong technical foundations. Inspired by your older brother's guidance, you approach your coursework with a structured mindset—often mapping out logical flowcharts before writing code to solve complex problems. Beyond the lectures and computer science labs, you balance your focused routine with an active life, whether that means playing football on the field or exploring long-term goals for technical skill building and international exchange opportunities. Your time at DSU represents a deliberate, ambitious effort to turn your early passion for technology into a successful trajectory in the software and tech industry.</p>
+
+    <ul>
+        <li>
+            FootBall<br>
+            <img src="https://tse1.mm.bing.net/th/id/OIP.exmVyiOrFy2_5aoW7dtzuwHaEd?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="200" alt="Football">
+        </li>
+        <li>
+            Swimming<br>
+            <img src="https://tse4.mm.bing.net/th/id/OIP.7o2tZINlxrc9T51f3tmFSAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="200" alt="Swimming">
+        </li>
+    </ul>
+
+    <div>
+        <table border="1" style="padding: 8px; text-align: center;">   
+            <caption><h2><u><b>Time table</b></u></h2></caption>
+            <tr style="background-color: aqua;">
+                <th>Day</th>
+                <th>Mon</th>
+                <th>Tues</th>
+                <th>Wed</th>
+                <th>Thurs</th>
+                <th>Friday</th>
+            </tr>
+            <tr>
+                <td>ENGLISH</td>
+                <td>Urdu</td>
+                <td>Maths</td>
+                <td>Break</td>
+                <td>Off DAY</td>
+                <td>Science</td>
+            </tr>
+            <tr>
+                <td>Urdu</td>
+                <td>ENGLISH</td>
+                <td>Break</td>
+                <td>Maths</td>
+                <td>Off DAY</td>
+                <td>Comp Lab</td>
+            </tr>
+            <tr>
+                <td>Urdu</td>
+                <td>ENGLISH</td>
+                <td>Break</td>
+                <td>Maths</td>
+                <td>Off DAY</td>
+                <td>Islamiyat</td>
+            </tr>
+            <tr>
+                <td>COMP</td>
+                <td>PE</td>
+                <td>Break</td>
+                <td>Maths</td>
+                <td>Off DAY</td>
+                <td>Science</td>
+            </tr>
+        </table>
+    </div>
+
+    <br>
+    <h1><u><b>Contact Me</b></u></h1>
+    <hr>
+
+    <form action="/submit-page" method="post">
+        <div>
+            <label for="full-name">Name:</label><br>
+            <input type="text" id="full-name" name="name" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="email-address">Email:</label><br>
+            <input type="email" id="email-address" name="email" required>
+        </div>
+        <br>
+
+        <div>
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" checked>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <br>
+
+        <div>
+            <label for="subject-select">Subject:</label><br>
+            <select id="subject-select" name="subject" required>
+                <option value="" disabled selected>Select Program</option>
+                <option value="bscs">BSCS</option>
+                <option value="bsds">BSDS</option>
+                <option value="bsme">BSME</option>
+                <option value="bsse">BSSE</option>
+                <option value="bsai">BSAI</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <label for="message-box">Message:</label><br>
+            <textarea id="message-box" name="message" rows="5" cols="40" required></textarea>
+        </div>
+        <br>
+
+        <fieldset>
+            <legend>Contact Method:</legend>
+            
+            <input type="radio" id="contact-email" name="contact_method" value="email" checked>
+            <label for="contact-email">Email</label><br>
+
+            <input type="radio" id="contact-phone" name="contact_method" value="phone">
+            <label for="contact-phone">Phone</label><br>
+
+            <input type="radio" id="contact-either" name="contact_method" value="either">
+            <label for="contact-either">No Preference</label>
+        </fieldset>
+        <br>
+
+        <input type="submit" value="Submit" style="background-color: cornflowerblue; color: white; padding: 8px 16px;">
+    </form>
+
+</body>
+</html>
